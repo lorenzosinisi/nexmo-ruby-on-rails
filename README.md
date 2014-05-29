@@ -1,4 +1,8 @@
 nexmo-ruby-on-rails
 ===================
+Nexmo.com give a number for SMS than
 
-Ruby on rails and nexmo SMS 
+SMS controller : 
+account_sid = 'YOUR NEXMO ACCOUNT ID HERE'
+auth_token = 'YOUR NEXMO TOKEN HERE'
+
