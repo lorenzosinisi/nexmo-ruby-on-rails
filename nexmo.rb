@@ -4,10 +4,10 @@ require 'nexmo'
 nexmo = Nexmo::Client.new('ID', 'TOKEN')
 
 @numbers = ['+39328186XXXX, +403847564XXX']
-@messaggio = "Message here"
-@mittente = "From who?"
+@text = "Message here"
+@from = "From who?"
 
-@numeri.each do |numero|
-	nexmo.send_message!({:to => numero, :from => @mittente, :text => @messaggio})
+@numbers.each do |number|
+	nexmo.send_message!({:to => number, :from => @from, :text => @text})
 end
 
